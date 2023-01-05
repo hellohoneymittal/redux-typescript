@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useAppDispatch, useAppSelector } from "./Selectors/hooks";
 import { RootState } from "./Selectors/store";
 import { increment, decrement } from "./Selectors/todoSlice";
